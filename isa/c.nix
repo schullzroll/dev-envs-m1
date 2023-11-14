@@ -3,7 +3,6 @@
   pkg-config,
   libpcap,
   libnet,
-  valgrind,
   gdb,
 }:
 mkShell {
@@ -13,7 +12,6 @@ mkShell {
   ];
 
   packages = [
-    valgrind
     gdb
   ];
 }
